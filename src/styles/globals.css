@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --bg-gradient: linear-gradient(113.31deg, #E3D8F1 0%, rgba(230, 216, 241, 0.85) 100.64%);
+}
+*{
+  margin:0;
+  padding: 0;
+}
