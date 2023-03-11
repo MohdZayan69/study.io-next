@@ -1,10 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 :root{
   --bg-gradient: linear-gradient(113.31deg, #E3D8F1 0%, rgba(230, 216, 241, 0.85) 100.64%);
+  --font-family: 'Raleway', sans-serif;
+  --bg-black: linear-gradient(135deg, #3C3C3C 0%, #424242 100%);
 }
 *{
   margin:0;
   padding: 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: large;
+}
+.body{
+  background: var(--bg-gradient);
+}
+.element {
+  background: var(--bg-black);
+  border-radius: 15px;
+  display: flex;
+}
+button.element{
+  padding: 4px 16px;
+  font-size: small;
+  border-radius:5px;
+  color:#fff;
+}
+button.element.primary{
+background: #FF6C6C;
 }
