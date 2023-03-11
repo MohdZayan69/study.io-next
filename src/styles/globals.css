@@ -18,16 +18,24 @@
   background: var(--bg-gradient);
 }
 .element {
-  background: var(--bg-black);
   border-radius: 15px;
   display: flex;
+}
+.element.primary{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+
 }
 button.element{
   padding: 4px 16px;
   font-size: small;
   border-radius:5px;
-  color:#fff;
+  color:#3C3C3C;
+  background: #fff;
 }
 button.element.primary{
-background: #FF6C6C;
+  background: #3C3C3C;
+  color:#fff
+}
+.round{
+  border-radius: 100%;
 }
